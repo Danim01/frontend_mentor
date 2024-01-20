@@ -1,0 +1,73 @@
+:root {
+    --font-figtree: 'Figtree', sans-serif;
+    --color-primary: #f4d04e;
+    --color-neutral-white: #ffffff;
+    --color-neutral-grey: #808080;
+    --color-neutral-black: #121212;    
+}
+
+body {
+    background-color: var(--color-primary);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+main {
+    background-color: var(--color-neutral-white);
+    border: 0.1em solid var(--color-neutral-black);
+    border-radius: 19px;
+    font-family: var(--font-figtree);
+    margin: 30px;
+    box-shadow: 9px 8px var(--color-neutral-black);
+    padding: 24px;
+    max-width: 400px;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.caja {
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    padding: 5px 12px;
+    margin: 22px 0 13px;
+    width: fit-content;
+    font-weight: 800;
+}
+
+.date {
+    font-size: 0.938rem;
+}
+
+h1 {
+    font-size: 1.25rem;
+    margin: 16px 0;
+}
+
+.parrafo {
+    font-size: 0.813rem;
+    color: var(--color-neutral-grey);
+}
+
+.footer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 25px 0 0;
+    font-weight: 800;
+}
+
+.avatar {
+    width: 45px;
+    aspect-ratio: 1/1;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 4px;
+}
